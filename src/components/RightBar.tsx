@@ -637,7 +637,7 @@ const CreateAProfileSection = ({
         className="rounded-2xl border-b-4 border-blue-500 bg-blue-400 py-3 uppercase text-white transition hover:border-blue-400 hover:bg-blue-300"
         onClick={() => setLoginScreenState("LOGIN")}
       >
-        Sign in
+        Connect Wallet
       </button>
     </article>
   );
