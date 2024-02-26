@@ -1,4 +1,4 @@
-# React Duolingo
+# React PolyAVO
 
 https://react-duolingo-clone.vercel.app/ 
 

@@ -19,10 +19,11 @@ const Home: NextPage = () => {
     >
       <LanguageHeader />
       <div className="flex w-full flex-col items-center justify-center gap-3 px-4 py-16 md:flex-row md:gap-36">
-        <GlobeSvg className="h-fit w-7/12 md:w-[360px]" />
+        {/* <GlobeSvg className="h-fit w-7/12 md:w-[360px]" /> */}
+        <div><img src="polyAvo.png" alt="polyAVO" /></div>
         <div>
           <p className="mb-6 max-w-[600px] text-center text-3xl font-bold md:mb-12">
-            The free, fun, and effective way to learn a language!
+            Earn while you learn!
           </p>
           <div className="mx-auto mt-4 flex w-fit flex-col items-center gap-3">
             <Link
