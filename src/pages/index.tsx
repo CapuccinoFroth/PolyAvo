@@ -1,6 +1,5 @@
 import { type NextPage } from "next";
 import Link from "next/link";
-import { GlobeSvg } from "~/components/Svgs";
 import React from "react";
 import { LanguageHeader } from "~/components/LanguageHeader";
 import { useLoginScreen, LoginScreen } from "~/components/LoginScreen";
@@ -19,7 +18,6 @@ const Home: NextPage = () => {
     >
       <LanguageHeader />
       <div className="flex w-full flex-col items-center justify-center gap-3 px-4 py-16 md:flex-row md:gap-36">
-        {/* <GlobeSvg className="h-fit w-7/12 md:w-[360px]" /> */}
         <div><img src="polyAvo.png" alt="polyAVO" /></div>
         <div>
           <p className="mb-6 max-w-[600px] text-center text-3xl font-bold md:mb-12">
