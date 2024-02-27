@@ -625,6 +625,7 @@ const CreateAProfileSection = ({
 }: {
   setLoginScreenState: React.Dispatch<React.SetStateAction<LoginScreenState>>;
 }) => {
+  setLoginScreenState;
   return (
     <article className="flex flex-col gap-5 rounded-2xl border-2 border-gray-200 p-6 font-bold">
       <h2 className="text-xl">Connect your wallet to save your progress!</h2>

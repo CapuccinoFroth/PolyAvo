@@ -4,7 +4,7 @@ import { useSDK } from "@metamask/sdk-react";
 
 export const Wallet = () => {
     const [account, setAccount] = useState<string>();
-    const { sdk, connected, connecting, provider, chainId } = useSDK();
+    const { sdk, connected, /*connecting, provider,*/ chainId } = useSDK();
 
     const connect = async () => {
         try {
@@ -17,7 +17,10 @@ export const Wallet = () => {
 
     return (
         <div>
-            <button className="rounded-2xl border-b-4 border-blue-500 bg-blue-400 py-3 uppercase text-white transition hover:border-blue-400 hover:bg-blue-300"  style={{ padding: 20, margin: 10}} onClick={connect}>
+            <button className="rounded-2xl border-b-4 border-blue-500 bg-blue-400 py-3 uppercase text-white transition hover:border-blue-400 hover:bg-blue-300" 
+                style={{ padding: 20, margin: 10}}
+                onClick={() => void connect()}
+            >
                 Connect Wallet
             </button>
             {connected && (
