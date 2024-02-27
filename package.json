@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@metamask/sdk-react": "^0.15.0",
     "@t3-oss/env-nextjs": "^0.7.3",
     "dayjs": "^1.11.10",
     "next": "^14.0.4",
